@@ -26,6 +26,9 @@ form.addEventListener("submit",(e:Event)=>{
 
     const list = new Render(ul)
     list.format(text,`${select.value}`)
+    client.value = ""
+     detail.value =""
+     amount.value=""
 
     
     
