@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color-scheme: light;
+}
+
+html {
+  font-size: 62.5%;
+}
+.Container {
+  @apply container mx-auto px-4 sm:px-8 md:px-12;
+}
+.Input__Group {
+  @apply flex flex-col mb-8 md:mb-0 sm:mr-12;
+}
+.Input__Title {
+  @apply text-center text-[1.6rem] font-bold capitalize mb-4;
+}
+.Input__Text {
+  @apply text-[1.6rem] p-3 focus-visible:outline-none h-[40px] capitalize;
+}

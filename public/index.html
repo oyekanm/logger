@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class=" ">
+    <section class="pt-12">
+        <p class="text-[3rem]  font-bold text-blue-600 text-center">Finance Logger </p>
+        <ul id="ul" class="mt-[10rem] Container "></ul>
+        <form action="#" id="form" class="bg-gray-300 py-32 mt-[10rem]">
+            <div class="block md:flex Container">
+                <div class="Input__Group">
+                    <label for="select" class="Input__Title">type:</label>
+                    <select name="select" id="select"
+                        class="px-8 h-[40px] text-[1.6rem] capitalize focus-visible:outline-none">
+                        <option value="Invoice" class="text-[1.6rem] capitalize">invoice</option>
+                        <option value="Payment" class="text-[1.6rem] capitalize">payment</option>
+                    </select>
+                </div>
+                <div class="Input__Group">
+                    <label for="client" class="Input__Title">client:</label>
+                    <input required type="text" name="Client" id="client" class="Input__Text">
+                </div>
+                <div class="Input__Group">
+                    <label for="detail" class="Input__Title">work details:</label>
+                    <input required type="text" id="detail" name="Details" class="Input__Text">
+                </div>
+                <div class="Input__Group">
+                    <label for="amount" class="Input__Title">amount (£):</label>
+                    <input required type="number" id="amount" name="Amount" class="Input__Text">
+                </div>
+                <div class="flex items-end justify-center">
+
+                    <button
+                        class="text-[1.6rem]  font-bold bg-blue-600 text-white text-center p-2 px-16 h-[40px]">add</button>
+                </div>
+
+
+            </div>
+            <span class="flex items-center justify-center">
+
+                <a href="https://project-house-nine.vercel.app/"
+                    class=" mt-8 text-[1.8rem]  capitalize underline underline-offset-4 " target="_blank">oyekanmi
+                    boluwatife</a>
+            </span>
+        </form>
+
+    </section>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
